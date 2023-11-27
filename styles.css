@@ -1,0 +1,110 @@
+h1 {
+  padding: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-weight: 300;
+}
+
+h2 {
+  padding: 0.5rem;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-weight: 300;
+}
+
+h3 {
+  padding: 0.5rem;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-weight: 100;
+}
+
+h4 {
+  padding: 0.5rem;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-weight: 100;
+}
+
+h5 {
+  padding: 0.5rem;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-weight: 500;
+}
+
+h6 {
+  padding: 0.5rem;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: large;
+  font-weight: 200;
+}
+
+a {
+  padding-inline: 1rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+  font-weight: 200;
+  background: rgb(229, 153, 153);
+  border-radius: 2rem;
+  font: 200;
+  color: aliceblue;
+  font-style: normal;
+  text-align: center;
+}
+
+button {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-inline: 1rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+  font-weight: 200;
+  background: rgb(0, 0, 0);
+  border-radius: 2rem;
+  font: 200;
+  color: rgb(26, 255, 0);
+  font-size: large;
+}
+
+input {
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+  padding-inline: 1rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+  font-weight: 200;
+  border-radius: 2rem;
+  font: 200;
+  box-shadow: none;
+  border:rgb(0, 0, 0);
+}
+
+.div1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.div2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  padding: 0.5rem;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: large;
+  font-weight: 200;
+}
