@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 h1 {
   padding: 2rem;
   font-family: 'Courier New', Courier, monospace;
@@ -45,15 +49,11 @@ a {
   padding-inline: 1rem;
   padding-top: 0.4rem;
   padding-bottom: 0.4rem;
-  font-family: 'Courier New', Courier, monospace;
+  font-family:Helvetica, sans-serif;
   text-align: left;
-  font-weight: 200;
-  background: rgb(229, 153, 153);
-  border-radius: 2rem;
-  font: 200;
-  color: aliceblue;
   font-style: normal;
   text-align: center;
+  transition: 300ms;
 }
 
 button {

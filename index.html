@@ -5,39 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
-
-    <link rel="stylesheet" href="./styles.css" />
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" />
   </head>
-  <body>
+  <body class="bg-gray-100 h-screen flex flex-col items-center justify-center">
     <!-- HEAD PART -->
-    <div>
-      <h1>Welcome to Calculator</h1>
-      <h3>
-        This is a Very Simple yet robust Practice of HTML, CSS and JavaScript
+    <div class="text-center mb-8">
+      <h1 class="text-4xl font-bold text-orange-600">Welcome to Calculator</h1>
+      <h3 class="text-lg">
+        This is a Very Simple yet robust Practice of HTML, CSS, and JavaScript
       </h3>
-      <h5>
+      <h5 class="text-sm">
         I'm making this project from scratch to become an expert in JavaScript
       </h5>
-      <a href="https://www.github.com/psidh" target="_blank">github-psidh</a>
+      <a href="https://www.github.com/psidh" target="_blank" class="text-white bg-green-500 hover:bg-black rounded-full mt-3">github-psidh</a>
     </div>
 
     <!-- Calculator -->
-    <h2>Calculator</h2>
-    <h6>Simple Calculator</h6>
+    <div class="bg-white p-8 rounded-lg shadow-md">
+      <h2 class="text-2xl font-semibold mb-4">Calculator</h2>
+      <h6 class="text-sm mb-6">Simple Calculator</h6>
 
-    <div class='div1'>
-      <input id="num1" type="number" placeholder="Drop an integer" />
-      <input id="num2" type="number" placeholder="Drop an integer" />
+      <div class="flex flex-col items-center">
+        <input id="num1" type="number" placeholder="Drop an integer" class="p-2 mb-2 border border-gray-300 rounded" />
+        <input id="num2" type="number" placeholder="Drop an integer" class="p-2 mb-4 border border-gray-300 rounded" />
 
-      <div class='div2'>
-      <button id="plus" onclick="calculate('+')">+</button>
-      <button id="sub" onclick="calculate('-')">-</button>
-      <button id="multiply" onclick="calculate('*')">*</button>
-      <button id="division" onclick="calculate('/')">/</button>
-      <button id="exponent" onclick="calculate('**')">exponent</button>
+        <div class="flex space-x-2 mb-4">
+          <button id="plus" onclick="calculate('+')" class="bg-blue-500 text-white px-4 py-2 rounded">+</button>
+          <button id="sub" onclick="calculate('-')" class="bg-blue-500 text-white px-4 py-2 rounded">-</button>
+          <button id="multiply" onclick="calculate('*')" class="bg-blue-500 text-white px-4 py-2 rounded">*</button>
+          <button id="division" onclick="calculate('/')" class="bg-blue-500 text-white px-4 py-2 rounded">/</button>
+          <button id="exponent" onclick="calculate('**')" class="bg-blue-500 text-white px-4 py-2 rounded">^</button>
+        </div>
+      </div>
+      <p id="result" class="text-2xl font-bold text-blue-700"></p>
     </div>
-    </div>
-    <p id="result"></p>
 
     <script src="script.js"></script>
   </body>
